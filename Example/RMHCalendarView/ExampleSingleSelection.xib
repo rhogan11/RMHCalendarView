@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ExampleSingleSelection" id="W3M-Ua-QEf" customClass="DateCell" customModule="RMHCalendarView">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uqX-Sz-yPP">
+                        <rect key="frame" x="9" y="9" width="32" height="32"/>
+                        <color key="backgroundColor" red="0.58823529409999997" green="0.77647058820000003" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="GGs-p0-pVL"/>
+                            <constraint firstAttribute="height" constant="32" id="uN6-Vh-qcJ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58v-z7-vVV">
+                        <rect key="frame" x="10" y="10" width="31" height="31.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="uqX-Sz-yPP" firstAttribute="trailing" secondItem="58v-z7-vVV" secondAttribute="trailing" id="GmU-Qo-Lhl"/>
+                <constraint firstItem="uqX-Sz-yPP" firstAttribute="centerX" secondItem="1vu-ve-buB" secondAttribute="centerX" id="SHl-tO-3ml"/>
+                <constraint firstItem="58v-z7-vVV" firstAttribute="centerX" secondItem="1vu-ve-buB" secondAttribute="centerX" id="hsT-05-jVq"/>
+                <constraint firstItem="58v-z7-vVV" firstAttribute="centerY" secondItem="1vu-ve-buB" secondAttribute="centerY" id="yKg-Kl-l83"/>
+                <constraint firstItem="uqX-Sz-yPP" firstAttribute="centerY" secondItem="1vu-ve-buB" secondAttribute="centerY" id="zAm-Tj-GBX"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="1vu-ve-buB"/>
+            <connections>
+                <outlet property="dateLabel" destination="58v-z7-vVV" id="HWp-pl-DmH"/>
+            </connections>
+            <point key="canvasLocation" x="-320" y="-46"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RMHCalendarView_Example' do
+  pod 'RMHCalendarView', :path => '../'
+
+  target 'RMHCalendarView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

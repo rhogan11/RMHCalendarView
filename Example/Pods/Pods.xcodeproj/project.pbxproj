@@ -1,0 +1,997 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0599BEC2FB939B30D44D5931D46C06E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		0B7D00E30D77892329C2F0614300B5D8 /* RMHCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A1739E19FB3FC93538DF63E0227B9 /* RMHCalendarView.swift */; };
+		1B98BE0904C08736596FDFEB2A8CE2FA /* Pods-RMHCalendarView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B40BE3164B0F356191383A7329D981 /* Pods-RMHCalendarView_Example-dummy.m */; };
+		1C54CFC7FCB046759FF8E8E064FDE008 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB87508F4F6D759CA8018B0688FA19 /* Theme.swift */; };
+		25C56D9E05C063A0B36E50CC5D5D8CC9 /* DateCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA425241154DA2395787156D4A085D7A /* DateCellViewModel.swift */; };
+		2CE20800914AC22BFFC7FD23AA405F28 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39A3F9ABE8A3ACA18AEE6A23F53A23 /* DateCell.swift */; };
+		335718F7747696CD1994B9CF805287DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		365247E742DF13C6DF7CE3DF9B39F99F /* LeftCapView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 959FE9C9ACCB58E5E8860333B4BDE36B /* LeftCapView.xib */; };
+		39297AEF774F140226F556660F10E9A4 /* MiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B294161ADD15CE7A76A605BA2016885 /* MiddleView.xib */; };
+		3B923A9A5BFE7A7C09EE68676001FCAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		3F9ED2C71F22483984510FD59E4F2925 /* RightCapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DFDCFC149038549C7D7750DA94EAA3 /* RightCapView.xib */; };
+		43E1303CF1766EC630079FD6A6A5F5AB /* ConfigHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F768351CDC9BBC385CF1ABBE56C1F0 /* ConfigHelpers.swift */; };
+		4426DBA7CA9D19A08A6E005EF7EAA597 /* DateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34183B5F36F46655AF92002FEB9D098D /* DateCell.xib */; };
+		5831AB8127EE93E3971B32ED6AF47A2B /* CircleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88A9D0CF9EEE01D24E2D93E2463175F /* CircleCell.swift */; };
+		656F37869CF83B0EBC4BCE9E118F95C3 /* MiddleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 6B294161ADD15CE7A76A605BA2016885 /* MiddleView.xib */; };
+		6B99E6819ABD84631352268354DA22EA /* RMHCalendarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A353B779091F2A5E816817B08494C9F /* RMHCalendarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7151572414D8C4A49C7960F6A48443E8 /* SingleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 6AB391532766534FB33BAC3C3843880E /* SingleView.xib */; };
+		71B9A784ED05758B1E4534BFC4F9D0AF /* DateCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 34183B5F36F46655AF92002FEB9D098D /* DateCell.xib */; };
+		84C7AF4FEFCCDE6B7ECB7BDE2F78719E /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6518093E16FB75D093058ED3F14F63 /* CalendarViewModel.swift */; };
+		86A4991906C3D81D400576F9DCDE042C /* RMHCalendarView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 95904A45B168C37EE3B965B0C19A4E1A /* RMHCalendarView.xib */; };
+		8B24FA8B5E537C59200879CB0AB927E4 /* LeftCapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 959FE9C9ACCB58E5E8860333B4BDE36B /* LeftCapView.xib */; };
+		8C8655A56D7CF075269C89E8B51C5BE0 /* XibConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C13CBB81EE671BF90109DB75183C27 /* XibConfig.swift */; };
+		92F462FC6753150A4F07F23FF3951BD8 /* Pods-RMHCalendarView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31CB1E8EF5B862C2FE9C1EB882FF22A4 /* Pods-RMHCalendarView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99FC48DD9DDD69A92689FFF68B55309F /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B560A4CA19BBB63436CDA4D372160A /* TextStyle.swift */; };
+		A8C8C015D4E3EE587700B24509A81E2B /* RMHCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95904A45B168C37EE3B965B0C19A4E1A /* RMHCalendarView.xib */; };
+		BC1D5E08CF62D83ABE2E657BCEC92347 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D84FF3FD1AB9A4181DD0099F7EBFB /* Extensions.swift */; };
+		C2B8772771C8221402BB4242B54B6637 /* RightCapView.xib in Sources */ = {isa = PBXBuildFile; fileRef = C1DFDCFC149038549C7D7750DA94EAA3 /* RightCapView.xib */; };
+		C9579AB8632A242474281285F556BA89 /* Pods-RMHCalendarView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2F57DACB180369D43831A42C5857DC /* Pods-RMHCalendarView_Tests-dummy.m */; };
+		CE54F08B78A019F8E8AB18080BBCC4B1 /* RMHCalendarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0BDDD369F3016134D45474DF2B2415D /* RMHCalendarView.bundle */; };
+		D0A395926EF52D9C23AD4D07D83E5E16 /* DateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773DDA7C111BA686F18CDB0174998C8 /* DateRange.swift */; };
+		D0FE4D82E832376DC2E7421E46362743 /* Pods-RMHCalendarView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 156AE50F3D0E9468D2303CC4C149029C /* Pods-RMHCalendarView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48E0CDA4801C623C08711F09D1CDC27 /* RMHCalendarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F5000B5B2386C5EA5F0220A13CBF2 /* RMHCalendarView-dummy.m */; };
+		D76AD6EE607A5871DC89E9477C4EAEDD /* SingleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AB391532766534FB33BAC3C3843880E /* SingleView.xib */; };
+		DFA9CFBF7F762E1AF1C65F2766814129 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E1426A4127624ED4E649579BD98AB542 /* StyleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B8390BA194AABCD1EE745A215EB54 /* StyleConfig.swift */; };
+		E60C3EB002F54D11AC7A768933FC58D9 /* IncrementState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9679DFC85186AEE8D4172494D65F0F /* IncrementState.swift */; };
+		ED556B18A157175DF04384C81B2DC4AC /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D2A62771D12EDDE766306590BA643 /* TodayView.swift */; };
+		F0A5AC158C0E961229D655B868BC2257 /* TextConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292F1343B9E855234A677EDE213B26A /* TextConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27DF4F77CFC5CE895B092106948CDB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82593D2039A2FC898EB6B1BDD539BF8E;
+			remoteInfo = RMHCalendarView;
+		};
+		90F2E602182D43BEC0DEDD98C50B83FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 871C86F55DC66B733643D423C34CB279;
+			remoteInfo = "RMHCalendarView-RMHCalendarView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06557956EC1747700A3A0B090EFA4DCA /* Pods-RMHCalendarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMHCalendarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B50363A9A91EBC7782600EBFC6E79FA /* RMHCalendarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RMHCalendarView.modulemap; sourceTree = "<group>"; };
+		10B560A4CA19BBB63436CDA4D372160A /* TextStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		156AE50F3D0E9468D2303CC4C149029C /* Pods-RMHCalendarView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RMHCalendarView_Example-umbrella.h"; sourceTree = "<group>"; };
+		2292F1343B9E855234A677EDE213B26A /* TextConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextConfig.swift; sourceTree = "<group>"; };
+		2564295F6221756478678D513B151DD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28EDE81EC03831F17C440FDDCA5E09F3 /* Pods-RMHCalendarView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RMHCalendarView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2B9679DFC85186AEE8D4172494D65F0F /* IncrementState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IncrementState.swift; sourceTree = "<group>"; };
+		31CB1E8EF5B862C2FE9C1EB882FF22A4 /* Pods-RMHCalendarView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RMHCalendarView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		34183B5F36F46655AF92002FEB9D098D /* DateCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = DateCell.xib; sourceTree = "<group>"; };
+		347B8390BA194AABCD1EE745A215EB54 /* StyleConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StyleConfig.swift; sourceTree = "<group>"; };
+		34FEF17DBF066C2932516593A940A435 /* Pods-RMHCalendarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMHCalendarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		35AF7E9F0FA3B80C46971A0911159F9F /* ResourceBundle-RMHCalendarView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RMHCalendarView-Info.plist"; sourceTree = "<group>"; };
+		4D9F5000B5B2386C5EA5F0220A13CBF2 /* RMHCalendarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMHCalendarView-dummy.m"; sourceTree = "<group>"; };
+		5773DDA7C111BA686F18CDB0174998C8 /* DateRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateRange.swift; sourceTree = "<group>"; };
+		5A353B779091F2A5E816817B08494C9F /* RMHCalendarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMHCalendarView-umbrella.h"; sourceTree = "<group>"; };
+		5DEDE11A3D8DE16DD3B88612899F30EE /* Pods-RMHCalendarView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RMHCalendarView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64865C7D9D9CC9AFC7281A74BE455B44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		686E820B3DBAB86261329966D8E7825E /* Pods-RMHCalendarView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RMHCalendarView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6AB391532766534FB33BAC3C3843880E /* SingleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SingleView.xib; sourceTree = "<group>"; };
+		6B294161ADD15CE7A76A605BA2016885 /* MiddleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MiddleView.xib; sourceTree = "<group>"; };
+		7CF4C8AC2C05F0C954A60E0FB297B80D /* Pods-RMHCalendarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMHCalendarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		841D84FF3FD1AB9A4181DD0099F7EBFB /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8821B2AF56F23AC1E9A02838E8D38FE1 /* Pods-RMHCalendarView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RMHCalendarView_Tests.modulemap"; sourceTree = "<group>"; };
+		937FD054998423CCA6285CAA72D182AB /* Pods-RMHCalendarView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RMHCalendarView_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DB87508F4F6D759CA8018B0688FA19 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		95904A45B168C37EE3B965B0C19A4E1A /* RMHCalendarView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RMHCalendarView.xib; sourceTree = "<group>"; };
+		959FE9C9ACCB58E5E8860333B4BDE36B /* LeftCapView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LeftCapView.xib; sourceTree = "<group>"; };
+		982A1739E19FB3FC93538DF63E0227B9 /* RMHCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RMHCalendarView.swift; sourceTree = "<group>"; };
+		A7C09007820A5D49CE0DEB3739555DBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2F57DACB180369D43831A42C5857DC /* Pods-RMHCalendarView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RMHCalendarView_Tests-dummy.m"; sourceTree = "<group>"; };
+		AE1D214238FF9B0C3973F240509C4FD1 /* Pods-RMHCalendarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMHCalendarView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AE39A3F9ABE8A3ACA18AEE6A23F53A23 /* DateCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		B43D2A62771D12EDDE766306590BA643 /* TodayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B70811CBBC049325305AF0F232AE701B /* Pods-RMHCalendarView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RMHCalendarView_Example.modulemap"; sourceTree = "<group>"; };
+		C1DFDCFC149038549C7D7750DA94EAA3 /* RightCapView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RightCapView.xib; sourceTree = "<group>"; };
+		C7B40BE3164B0F356191383A7329D981 /* Pods-RMHCalendarView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RMHCalendarView_Example-dummy.m"; sourceTree = "<group>"; };
+		CF6518093E16FB75D093058ED3F14F63 /* CalendarViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		D097077F95161E3AEC78F4BCB56C307F /* RMHCalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RMHCalendarView.framework; path = RMHCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D132F990EF407E858490C62D0C4581CA /* Pods-RMHCalendarView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMHCalendarView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD24D50A74DCB3E08A28C725C920D780 /* RMHCalendarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMHCalendarView-prefix.pch"; sourceTree = "<group>"; };
+		E0BDDD369F3016134D45474DF2B2415D /* RMHCalendarView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RMHCalendarView.bundle; path = RMHCalendarView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39C57EFDDC9B6D22A9CDDD2078866C8 /* Pods-RMHCalendarView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RMHCalendarView_Tests-resources.sh"; sourceTree = "<group>"; };
+		E572CF906298C480186B784439C7C2F0 /* RMHCalendarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMHCalendarView.xcconfig; sourceTree = "<group>"; };
+		E7F768351CDC9BBC385CF1ABBE56C1F0 /* ConfigHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConfigHelpers.swift; sourceTree = "<group>"; };
+		EA425241154DA2395787156D4A085D7A /* DateCellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateCellViewModel.swift; sourceTree = "<group>"; };
+		EA989BEB1060FCF97ACD45E63243C433 /* Pods_RMHCalendarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RMHCalendarView_Example.framework; path = "Pods-RMHCalendarView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4734ED0965FC65A3FBAEE65AC3F72C3 /* Pods_RMHCalendarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RMHCalendarView_Tests.framework; path = "Pods-RMHCalendarView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DF9D2D39F53E382AA1972FB6714664 /* Pods-RMHCalendarView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RMHCalendarView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F88A9D0CF9EEE01D24E2D93E2463175F /* CircleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircleCell.swift; sourceTree = "<group>"; };
+		F8C13CBB81EE671BF90109DB75183C27 /* XibConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XibConfig.swift; sourceTree = "<group>"; };
+		F93D0F3AEB58BDD75B8B615B2FD7293E /* Pods-RMHCalendarView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RMHCalendarView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CF4B913529BE142766C23BA178D57E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335718F7747696CD1994B9CF805287DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50920A3C50A3BB1A2DDA5EF8DB960502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA9CFBF7F762E1AF1C65F2766814129 /* Foundation.framework in Frameworks */,
+				3B923A9A5BFE7A7C09EE68676001FCAF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747DDD0AC6C934880562294728023629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0599BEC2FB939B30D44D5931D46C06E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C39463BA47022B01BF237D054059BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08223DE0956BB119A2F836559F7030ED /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				347B8390BA194AABCD1EE745A215EB54 /* StyleConfig.swift */,
+				2292F1343B9E855234A677EDE213B26A /* TextConfig.swift */,
+				10B560A4CA19BBB63436CDA4D372160A /* TextStyle.swift */,
+				94DB87508F4F6D759CA8018B0688FA19 /* Theme.swift */,
+				F8C13CBB81EE671BF90109DB75183C27 /* XibConfig.swift */,
+			);
+			name = Configs;
+			path = RMHCalendarView/Classes/Configs;
+			sourceTree = "<group>";
+		};
+		2F9FE034E71BABE72C17637D63B5132A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F88A9D0CF9EEE01D24E2D93E2463175F /* CircleCell.swift */,
+				AE39A3F9ABE8A3ACA18AEE6A23F53A23 /* DateCell.swift */,
+				34183B5F36F46655AF92002FEB9D098D /* DateCell.xib */,
+				959FE9C9ACCB58E5E8860333B4BDE36B /* LeftCapView.xib */,
+				6B294161ADD15CE7A76A605BA2016885 /* MiddleView.xib */,
+				C1DFDCFC149038549C7D7750DA94EAA3 /* RightCapView.xib */,
+				6AB391532766534FB33BAC3C3843880E /* SingleView.xib */,
+				B43D2A62771D12EDDE766306590BA643 /* TodayView.swift */,
+			);
+			name = Views;
+			path = RMHCalendarView/Classes/Views;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		49DC9D6DCDAD0A246B32C397DF197749 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7C09007820A5D49CE0DEB3739555DBE /* Info.plist */,
+				35AF7E9F0FA3B80C46971A0911159F9F /* ResourceBundle-RMHCalendarView-Info.plist */,
+				0B50363A9A91EBC7782600EBFC6E79FA /* RMHCalendarView.modulemap */,
+				E572CF906298C480186B784439C7C2F0 /* RMHCalendarView.xcconfig */,
+				4D9F5000B5B2386C5EA5F0220A13CBF2 /* RMHCalendarView-dummy.m */,
+				DD24D50A74DCB3E08A28C725C920D780 /* RMHCalendarView-prefix.pch */,
+				5A353B779091F2A5E816817B08494C9F /* RMHCalendarView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RMHCalendarView";
+			sourceTree = "<group>";
+		};
+		522AC140303FDCC058974B7E037D60E5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3F66A4F17520C7BE630C310A234E8CB /* RMHCalendarView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		56C20753F040DF337AC898B0C08F380A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5773DDA7C111BA686F18CDB0174998C8 /* DateRange.swift */,
+				2B9679DFC85186AEE8D4172494D65F0F /* IncrementState.swift */,
+			);
+			name = Models;
+			path = RMHCalendarView/Classes/Models;
+			sourceTree = "<group>";
+		};
+		60CEAE74A94FE1A6DFB00CCC68C3102E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA989BEB1060FCF97ACD45E63243C433 /* Pods_RMHCalendarView_Example.framework */,
+				F4734ED0965FC65A3FBAEE65AC3F72C3 /* Pods_RMHCalendarView_Tests.framework */,
+				E0BDDD369F3016134D45474DF2B2415D /* RMHCalendarView.bundle */,
+				D097077F95161E3AEC78F4BCB56C307F /* RMHCalendarView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69AEC8EDE4974481A38E0FAEFF64E6DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A2DA36B265732FD0FAE0F987D507D0B /* Pods-RMHCalendarView_Example */,
+				B6FF789FF008F24E445381AA1D99CAE7 /* Pods-RMHCalendarView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A2DA36B265732FD0FAE0F987D507D0B /* Pods-RMHCalendarView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				64865C7D9D9CC9AFC7281A74BE455B44 /* Info.plist */,
+				B70811CBBC049325305AF0F232AE701B /* Pods-RMHCalendarView_Example.modulemap */,
+				5DEDE11A3D8DE16DD3B88612899F30EE /* Pods-RMHCalendarView_Example-acknowledgements.markdown */,
+				F93D0F3AEB58BDD75B8B615B2FD7293E /* Pods-RMHCalendarView_Example-acknowledgements.plist */,
+				C7B40BE3164B0F356191383A7329D981 /* Pods-RMHCalendarView_Example-dummy.m */,
+				686E820B3DBAB86261329966D8E7825E /* Pods-RMHCalendarView_Example-frameworks.sh */,
+				937FD054998423CCA6285CAA72D182AB /* Pods-RMHCalendarView_Example-resources.sh */,
+				156AE50F3D0E9468D2303CC4C149029C /* Pods-RMHCalendarView_Example-umbrella.h */,
+				34FEF17DBF066C2932516593A940A435 /* Pods-RMHCalendarView_Example.debug.xcconfig */,
+				AE1D214238FF9B0C3973F240509C4FD1 /* Pods-RMHCalendarView_Example.release.xcconfig */,
+			);
+			name = "Pods-RMHCalendarView_Example";
+			path = "Target Support Files/Pods-RMHCalendarView_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				522AC140303FDCC058974B7E037D60E5 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				60CEAE74A94FE1A6DFB00CCC68C3102E /* Products */,
+				69AEC8EDE4974481A38E0FAEFF64E6DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88858F54B8F4CD6B1530DF4855D46269 /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				982A1739E19FB3FC93538DF63E0227B9 /* RMHCalendarView.swift */,
+				95904A45B168C37EE3B965B0C19A4E1A /* RMHCalendarView.xib */,
+			);
+			name = CalendarView;
+			path = RMHCalendarView/Classes/CalendarView;
+			sourceTree = "<group>";
+		};
+		8C8D3297F141E409723641C158FE0D4A /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CalendarView;
+			path = RMHCalendarView/Classes/CalendarView;
+			sourceTree = "<group>";
+		};
+		983BDEB005658D837AF468F555A154FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E7F768351CDC9BBC385CF1ABBE56C1F0 /* ConfigHelpers.swift */,
+				841D84FF3FD1AB9A4181DD0099F7EBFB /* Extensions.swift */,
+			);
+			name = Utils;
+			path = RMHCalendarView/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		9B150FDAFB45AC92B9907B8030C9AB02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D3297F141E409723641C158FE0D4A /* CalendarView */,
+				FAE8362F5183167A6101EC883ABAECC3 /* Views */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B6FF789FF008F24E445381AA1D99CAE7 /* Pods-RMHCalendarView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2564295F6221756478678D513B151DD1 /* Info.plist */,
+				8821B2AF56F23AC1E9A02838E8D38FE1 /* Pods-RMHCalendarView_Tests.modulemap */,
+				F6DF9D2D39F53E382AA1972FB6714664 /* Pods-RMHCalendarView_Tests-acknowledgements.markdown */,
+				D132F990EF407E858490C62D0C4581CA /* Pods-RMHCalendarView_Tests-acknowledgements.plist */,
+				AC2F57DACB180369D43831A42C5857DC /* Pods-RMHCalendarView_Tests-dummy.m */,
+				28EDE81EC03831F17C440FDDCA5E09F3 /* Pods-RMHCalendarView_Tests-frameworks.sh */,
+				E39C57EFDDC9B6D22A9CDDD2078866C8 /* Pods-RMHCalendarView_Tests-resources.sh */,
+				31CB1E8EF5B862C2FE9C1EB882FF22A4 /* Pods-RMHCalendarView_Tests-umbrella.h */,
+				06557956EC1747700A3A0B090EFA4DCA /* Pods-RMHCalendarView_Tests.debug.xcconfig */,
+				7CF4C8AC2C05F0C954A60E0FB297B80D /* Pods-RMHCalendarView_Tests.release.xcconfig */,
+			);
+			name = "Pods-RMHCalendarView_Tests";
+			path = "Target Support Files/Pods-RMHCalendarView_Tests";
+			sourceTree = "<group>";
+		};
+		D3F66A4F17520C7BE630C310A234E8CB /* RMHCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				88858F54B8F4CD6B1530DF4855D46269 /* CalendarView */,
+				08223DE0956BB119A2F836559F7030ED /* Configs */,
+				56C20753F040DF337AC898B0C08F380A /* Models */,
+				9B150FDAFB45AC92B9907B8030C9AB02 /* Resources */,
+				49DC9D6DCDAD0A246B32C397DF197749 /* Support Files */,
+				983BDEB005658D837AF468F555A154FD /* Utils */,
+				E81BF88F224921E391E60F4C26228836 /* ViewModels */,
+				2F9FE034E71BABE72C17637D63B5132A /* Views */,
+			);
+			name = RMHCalendarView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E81BF88F224921E391E60F4C26228836 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CF6518093E16FB75D093058ED3F14F63 /* CalendarViewModel.swift */,
+				EA425241154DA2395787156D4A085D7A /* DateCellViewModel.swift */,
+			);
+			name = ViewModels;
+			path = RMHCalendarView/Classes/ViewModels;
+			sourceTree = "<group>";
+		};
+		FAE8362F5183167A6101EC883ABAECC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = RMHCalendarView/Classes/Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F64D953F6529EB35DE4FAFF17933C4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B99E6819ABD84631352268354DA22EA /* RMHCalendarView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C0C609A5CAE54F5D42CEAF7AEA13C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F462FC6753150A4F07F23FF3951BD8 /* Pods-RMHCalendarView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3FE2F0CA42E48CA28972962F35D26C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE4D82E832376DC2E7421E46362743 /* Pods-RMHCalendarView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E56F5AF664ECC5F0B2D9A91DC7F3CD5 /* Pods-RMHCalendarView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B0E61AAD1EA279B13BC15B1137DEC6 /* Build configuration list for PBXNativeTarget "Pods-RMHCalendarView_Tests" */;
+			buildPhases = (
+				D4E73AEA332616DEFB639F99A7D94C24 /* Sources */,
+				2CF4B913529BE142766C23BA178D57E1 /* Frameworks */,
+				A3C0C609A5CAE54F5D42CEAF7AEA13C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RMHCalendarView_Tests";
+			productName = "Pods-RMHCalendarView_Tests";
+			productReference = F4734ED0965FC65A3FBAEE65AC3F72C3 /* Pods_RMHCalendarView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82593D2039A2FC898EB6B1BDD539BF8E /* RMHCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CE570857E0CBD5680744FD6620C93F /* Build configuration list for PBXNativeTarget "RMHCalendarView" */;
+			buildPhases = (
+				9C7C5ECFA1092952BCF28B85533546D0 /* Sources */,
+				50920A3C50A3BB1A2DDA5EF8DB960502 /* Frameworks */,
+				8CF16157D2D9A836A7F2819969A3176B /* Resources */,
+				1F64D953F6529EB35DE4FAFF17933C4D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC8C90170BEED2122491C1EF1D6AC1F /* PBXTargetDependency */,
+			);
+			name = RMHCalendarView;
+			productName = RMHCalendarView;
+			productReference = D097077F95161E3AEC78F4BCB56C307F /* RMHCalendarView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		871C86F55DC66B733643D423C34CB279 /* RMHCalendarView-RMHCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F526AF717EA50CB2639EA3DB2D50EB /* Build configuration list for PBXNativeTarget "RMHCalendarView-RMHCalendarView" */;
+			buildPhases = (
+				7028DA2430DA2828D6CF12E7DA0A02B7 /* Sources */,
+				8C39463BA47022B01BF237D054059BD1 /* Frameworks */,
+				9C96EB27C73DDBBF59C43FA6BEC59E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RMHCalendarView-RMHCalendarView";
+			productName = "RMHCalendarView-RMHCalendarView";
+			productReference = E0BDDD369F3016134D45474DF2B2415D /* RMHCalendarView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B09457B2B12E803D5E6B7E1C14B9DCAA /* Pods-RMHCalendarView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4370547F66696A2C656E4724FC237F2 /* Build configuration list for PBXNativeTarget "Pods-RMHCalendarView_Example" */;
+			buildPhases = (
+				AC1754FB10343E0A545C5C96C4D18DF6 /* Sources */,
+				747DDD0AC6C934880562294728023629 /* Frameworks */,
+				BE3FE2F0CA42E48CA28972962F35D26C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74A23A79046BA4801E889EC03ABB2CE4 /* PBXTargetDependency */,
+			);
+			name = "Pods-RMHCalendarView_Example";
+			productName = "Pods-RMHCalendarView_Example";
+			productReference = EA989BEB1060FCF97ACD45E63243C433 /* Pods_RMHCalendarView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 60CEAE74A94FE1A6DFB00CCC68C3102E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B09457B2B12E803D5E6B7E1C14B9DCAA /* Pods-RMHCalendarView_Example */,
+				5E56F5AF664ECC5F0B2D9A91DC7F3CD5 /* Pods-RMHCalendarView_Tests */,
+				82593D2039A2FC898EB6B1BDD539BF8E /* RMHCalendarView */,
+				871C86F55DC66B733643D423C34CB279 /* RMHCalendarView-RMHCalendarView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF16157D2D9A836A7F2819969A3176B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE54F08B78A019F8E8AB18080BBCC4B1 /* RMHCalendarView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C96EB27C73DDBBF59C43FA6BEC59E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4426DBA7CA9D19A08A6E005EF7EAA597 /* DateCell.xib in Resources */,
+				8B24FA8B5E537C59200879CB0AB927E4 /* LeftCapView.xib in Resources */,
+				39297AEF774F140226F556660F10E9A4 /* MiddleView.xib in Resources */,
+				3F9ED2C71F22483984510FD59E4F2925 /* RightCapView.xib in Resources */,
+				A8C8C015D4E3EE587700B24509A81E2B /* RMHCalendarView.xib in Resources */,
+				D76AD6EE607A5871DC89E9477C4EAEDD /* SingleView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7028DA2430DA2828D6CF12E7DA0A02B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7C5ECFA1092952BCF28B85533546D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C7AF4FEFCCDE6B7ECB7BDE2F78719E /* CalendarViewModel.swift in Sources */,
+				5831AB8127EE93E3971B32ED6AF47A2B /* CircleCell.swift in Sources */,
+				43E1303CF1766EC630079FD6A6A5F5AB /* ConfigHelpers.swift in Sources */,
+				2CE20800914AC22BFFC7FD23AA405F28 /* DateCell.swift in Sources */,
+				71B9A784ED05758B1E4534BFC4F9D0AF /* DateCell.xib in Sources */,
+				25C56D9E05C063A0B36E50CC5D5D8CC9 /* DateCellViewModel.swift in Sources */,
+				D0A395926EF52D9C23AD4D07D83E5E16 /* DateRange.swift in Sources */,
+				BC1D5E08CF62D83ABE2E657BCEC92347 /* Extensions.swift in Sources */,
+				E60C3EB002F54D11AC7A768933FC58D9 /* IncrementState.swift in Sources */,
+				365247E742DF13C6DF7CE3DF9B39F99F /* LeftCapView.xib in Sources */,
+				656F37869CF83B0EBC4BCE9E118F95C3 /* MiddleView.xib in Sources */,
+				C2B8772771C8221402BB4242B54B6637 /* RightCapView.xib in Sources */,
+				D48E0CDA4801C623C08711F09D1CDC27 /* RMHCalendarView-dummy.m in Sources */,
+				0B7D00E30D77892329C2F0614300B5D8 /* RMHCalendarView.swift in Sources */,
+				86A4991906C3D81D400576F9DCDE042C /* RMHCalendarView.xib in Sources */,
+				7151572414D8C4A49C7960F6A48443E8 /* SingleView.xib in Sources */,
+				E1426A4127624ED4E649579BD98AB542 /* StyleConfig.swift in Sources */,
+				F0A5AC158C0E961229D655B868BC2257 /* TextConfig.swift in Sources */,
+				99FC48DD9DDD69A92689FFF68B55309F /* TextStyle.swift in Sources */,
+				1C54CFC7FCB046759FF8E8E064FDE008 /* Theme.swift in Sources */,
+				ED556B18A157175DF04384C81B2DC4AC /* TodayView.swift in Sources */,
+				8C8655A56D7CF075269C89E8B51C5BE0 /* XibConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1754FB10343E0A545C5C96C4D18DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B98BE0904C08736596FDFEB2A8CE2FA /* Pods-RMHCalendarView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E73AEA332616DEFB639F99A7D94C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9579AB8632A242474281285F556BA89 /* Pods-RMHCalendarView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74A23A79046BA4801E889EC03ABB2CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMHCalendarView;
+			target = 82593D2039A2FC898EB6B1BDD539BF8E /* RMHCalendarView */;
+			targetProxy = 27DF4F77CFC5CE895B092106948CDB85 /* PBXContainerItemProxy */;
+		};
+		ACC8C90170BEED2122491C1EF1D6AC1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RMHCalendarView-RMHCalendarView";
+			target = 871C86F55DC66B733643D423C34CB279 /* RMHCalendarView-RMHCalendarView */;
+			targetProxy = 90F2E602182D43BEC0DEDD98C50B83FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2659105B2B634C6DA7E9A935F78F2169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FEF17DBF066C2932516593A940A435 /* Pods-RMHCalendarView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RMHCalendarView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RMHCalendarView_Example/Pods-RMHCalendarView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RMHCalendarView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		481ED735D99C9B9C4494A47404E1F6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1D214238FF9B0C3973F240509C4FD1 /* Pods-RMHCalendarView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RMHCalendarView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RMHCalendarView_Example/Pods-RMHCalendarView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RMHCalendarView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		499339308FA02A993263046473C1CE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF4C8AC2C05F0C954A60E0FB297B80D /* Pods-RMHCalendarView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RMHCalendarView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RMHCalendarView_Tests/Pods-RMHCalendarView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RMHCalendarView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D99A75A63187A61DE7807EA06C2ECDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E572CF906298C480186B784439C7C2F0 /* RMHCalendarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMHCalendarView/RMHCalendarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMHCalendarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMHCalendarView/RMHCalendarView.modulemap";
+				PRODUCT_NAME = RMHCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59481C845A20A030F462E42ABECD37B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E572CF906298C480186B784439C7C2F0 /* RMHCalendarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMHCalendarView/RMHCalendarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMHCalendarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMHCalendarView/RMHCalendarView.modulemap";
+				PRODUCT_NAME = RMHCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		815B854339595762F12C22C463E8600C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E572CF906298C480186B784439C7C2F0 /* RMHCalendarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RMHCalendarView";
+				INFOPLIST_FILE = "Target Support Files/RMHCalendarView/ResourceBundle-RMHCalendarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RMHCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B4A0548AD3D3CF8AC73D168432DCB605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E572CF906298C480186B784439C7C2F0 /* RMHCalendarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RMHCalendarView";
+				INFOPLIST_FILE = "Target Support Files/RMHCalendarView/ResourceBundle-RMHCalendarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RMHCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D3C6791DF153E1B74F666FBD230B6110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06557956EC1747700A3A0B090EFA4DCA /* Pods-RMHCalendarView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RMHCalendarView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RMHCalendarView_Tests/Pods-RMHCalendarView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RMHCalendarView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CE570857E0CBD5680744FD6620C93F /* Build configuration list for PBXNativeTarget "RMHCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D99A75A63187A61DE7807EA06C2ECDB /* Debug */,
+				59481C845A20A030F462E42ABECD37B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B0E61AAD1EA279B13BC15B1137DEC6 /* Build configuration list for PBXNativeTarget "Pods-RMHCalendarView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C6791DF153E1B74F666FBD230B6110 /* Debug */,
+				499339308FA02A993263046473C1CE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F526AF717EA50CB2639EA3DB2D50EB /* Build configuration list for PBXNativeTarget "RMHCalendarView-RMHCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815B854339595762F12C22C463E8600C /* Debug */,
+				B4A0548AD3D3CF8AC73D168432DCB605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4370547F66696A2C656E4724FC237F2 /* Build configuration list for PBXNativeTarget "Pods-RMHCalendarView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2659105B2B634C6DA7E9A935F78F2169 /* Debug */,
+				481ED735D99C9B9C4494A47404E1F6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

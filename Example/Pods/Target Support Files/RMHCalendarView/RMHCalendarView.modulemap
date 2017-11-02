@@ -1,0 +1,6 @@
+framework module RMHCalendarView {
+  umbrella header "RMHCalendarView-umbrella.h"
+
+  export *
+  module * { export * }
+}
