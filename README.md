@@ -110,6 +110,10 @@ class ExampleTextConfig: TextConfigProtocol {
 }
 ```
 
+# DateCell Sizing
+
+When desinging a custom date cell, you should account for a variable height and width.  However, given a fixed container size, the date cell size can be computed.  The header of the calendar will always have a height of 90, the calendar will always display 7 days across, and the calendar will always display 6 rows of dates.  Therefore, the daeCell's height is (container's height - 90)/6 and the dateCell's width is container's width/7.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
